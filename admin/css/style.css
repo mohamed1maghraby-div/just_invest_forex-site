@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    direction: ltr;
+}
+/*
+========================
+    login / rigster
+========================
+*/
+.loginhref { padding-top: 5px; padding-bottom: 5px;}
+.loginhref a {color:#bb0000;}
+input[type="text"] , input[type="password"] , input[type="email"]{color: #c6c6c6; padding: 15px; font-weight: 300; background: #414141; border: 1px solid #414141; width: 90%; margin-top: 20px;}
+input[type="submit"]{background: #fff; font-size: 24px; color: #bb0000; border: 0; width: 90%; height: 40px; transition: 1s;}
+input[type="submit"]:hover {background: #bb0000; color: #fff;}
+
+.ok{
+    background: #5bcf71;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid #2da845;
+}
+
+
+/*
+==============
+    index
+==============
+*/
+.header {position: absolute; z-index: 2; top: 6%; left: -2%;}
+.header ul li {list-style: none; display: inline-block; padding-left: 10px; padding-right: 10px;}
+.logo {letter-spacing: 1px; font-weight: 600; font-size: 24px; line-height: 5px;}
+.header ul li a {color: #fff;  text-decoration: none;}
+.carousel{height: 100%; padding: 0;}
+.img_1 {background: url(image/2.jpg) no-repeat; background-size: cover; width: 100%; height: 100%;}
+.img_1_text {position: absolute; top: 30%; color: #000; text-align: left;}
+.hersontal_line {width: 20%; height: 3px; background: #bb0000; margin-top: 10px; margin-bottom: 10px;}
+.reliable_partner {font-size: 30px; font-weight: 700;}
+.minimal_risks {margin-bottom: 5px; margin-top: 5px; margin-left: 20px; font-size: 14px;}
+.img_2 {background: url(image/tr1.jpg) no-repeat; background-size: cover; width: 100%; height: 100%;}
+.img_3 {background: url(image/carousel-1.jpg) no-repeat; width: 100%; height: 100%;}
+.main_sidebar {position: fixed; top: 12%; left: -86%; width: 86%; height: 77%; background: #000; z-index: 3; transition: 1s;}
+.main_sidebar_on {left: 0;}
+
+/*
+==================
+    dashboard
+==================
+*/
+.header ul li {}
+.dashboard_header .header {padding-top: 2%; height: 24%; padding:30px 0; background: #000; width: 100%; position: fixed; top: 0; left: 0; }
+.dashboard {background: #fff; height: 100%; }
+.dashboard_border {border: 1px solid #b7b7b4; background-color: rgba(29, 39, 54, .75); border-radius: 10px; height: auto; position: relative; top: 186px; padding-bottom: 20px;}
+.dashbord_inner {margin-top: 5%;}
+.dashboard_h1{color: #fff; background-color: rgba(255, 255, 255, .4); border-radius: 5px; font-size: 14px; text-transform: uppercase; padding: 9px 0px; text-align: left; line-height: 20px;}
+.dashboard_h1 h1 {margin: 0; font-size: 14px; padding-left: 10px;}
+.ac_wi_ref {}
+.ac_wi_ref_2 {margin-top: 8%; color: #fff; text-align: center;}
+.ac_wi_ref_text {background-color: rgba(255, 255, 255, .8); border-radius: 10px; width: 80%; height: 35px; padding: 7px 15px; color: #000; text-align: center; position: relative; bottom: 10px; left: 13%;}
+rect{fill: rgba(0, 0, 0, 0);}
+.dashboard_end { color: #fff; text-align: center;}
+.dashboard_span {position: absolute; left: 25%; top: 10px;}
+button {width: 95%; margin-left: 5%; margin-bottom: 5%; height: 35px; border-radius: 10px; 
+border: 1px solid #999ea5; background: url(../../image/dashboard_button_balck.PNG) no-repeat; background-size: cover;}
+.edit_profile input[type="text"] {margin-top: 10px;}
+
+.sidebar {position: fixed; left: 0; top: 12%; width: 3%; height: 77%; background: #bb0000;  z-index: 4; cursor: pointer; transition: .99s;}
+.sidebar_overlay {position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: none; z-index: 2; transition: 1s;}
+.sidebar_overlay_on {display: block;}
+.sidebar_overlay_pro {position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: none; z-index: 1; transition: 1s;}
+.sidebar_overlay_pro_on {display: block;}
+.sidebar_overlay_pro_1 {position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: none; z-index: 1; transition: 1s;}
+.sidebar_overlay_pro_on_1 {display: block;}
+.sidebar_on {left: 84%;}
+.sidebar_helper {-webkit-transform: rotateZ(270deg); /* Safari */
+    transform: rotateZ(270deg);}
+.sidebar_text {color: #fff; font-size: 18px; font-weight: 600; letter-spacing: .7px; position: absolute; right: 790%; bottom: -12px;}
+.sidebar_arrow {position: absolute; font-size: 24px;  color: #fff; right: 150%; top: -12px;}
+
+/*
+=====================
+    admin sidebae
+=====================
+*/
+.admin_side_bar { position: fixed; top: 28%; right: 0; font-size: 15px; font-weight: 600; color: #fff;}
+.admin_menu_word {-webkit-transform: rotateZ(270deg); /* Safari */ transform: rotateZ(270deg); position: relative; top: 38%;}
+.admin_side_bar_menu {background-color: rgba(29, 39, 54, .75); width: 35px; height: 100px; cursor: pointer;}
+.admin_main_menu {background-color: rgba(29, 39, 54, .75); width: 300px; height: 600px;     position: fixed; right: -38%; bottom: 0; top: 4%; z-index: 3; transition: 1s;}
+.admin_main_menu_on {right: 0;}
+.cross_close {display: none; color: #fff; font-size: 20px; position: absolute; left: 5%; top: 2%; cursor: pointer;}
+.user_menu {text-align: center;}
+.user_menu h1 {color: #fff; display: inline-block;}
+.user_menu ul li {list-style: none;}
+
+.panel-default>.panel-heading {background: rgb(153, 158, 165); border-bottom: 1px solid rgb(153, 158, 165);}
+.panel-default {border-color: #999ea5;}
+.panel-default>.panel-heading {color: #fff;}
+
+/*
+=================
+    eidt profile
+=================
+*/
+.generaly_user_info {position: fixed; z-index: 5; top: 9%; left: 38%; width: 24%; display: none;}
+table a {color: #bb0000; }
+table a:hover {text-decoration: none; color: #bb0000; cursor: pointer;}
+.generaly_user_info_on {display: block;}
+.profile_display {width: 95%; height: 90%; color: #c6c6c6; }
+.profile_img { height: 250px; width: 100%; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+hr {margin-bottom: 4px; margin-top: 4px;}
+.profile_body {background: #414141; height: auto; padding: 10px 15px; font-weight: 600;}
+.profile_footer {background: #fff; height: auto; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding: 10px;}
+.profile_footer a {color: #bb0000; text-decoration: none;}
+.prorfile_colse {display: block; color: #fff; font-size: 20px; position: absolute; left: 8%; top: 3%; cursor: pointer; z-index: 0;}
+
+/*
+=================
+
+=================
+*/
+.show_user_dep {position: fixed; z-index: 5; top: 9%; left: 38%;}
+
+option {padding-bottom: 5px; padding-top: 5px;}
